@@ -1,6 +1,8 @@
 # bugly
 bugly拉取数据
+
 实际登录bugly后通过接口拿到Cookie,X-token值，执行all_result.py文件即可获取3个文件
+
 http_call = HttpCall({
         'Cookie': 'pgv_pvi=5227054080; ptui_loginuin=3218702409; RK=uSTZc9Z2yy; ptcz=307a2aaec06b073405bef7929ff9e6a6047806cefe6a1c9d153936f89e31b45e; _ga=GA1.2.1939390862.1597295914; btcu_id=876711e194caa4a523f06ffe6df4c1235f34cd2a72929; vc=vc-4557b7fc-b0ae-403a-a44d-938d1f46e7f7; vc.sig=TcUf5la9TieBJoB23OijMd-YL_KHFGxMh1TKj0waroI; pgv_pvid=6497091362; tvfe_boss_uuid=d30b863ad45c1926; o_cookie=1184569493; pac_uid=1_1184569493; uin=o1184569493; skey=@67wuiFxsZ; token-skey=205838f3-7d9d-df85-a4b6-93a9c63a865a; token-lifeTime=1628494414; bugly-session=s%3AsVZC5F-CRx4-17a3JPxVawnj833F6VeS.0YKXjb%2FqdcBcUYyJljNE9I74nqE2YDOmGTjWN9WOx%2Bo; before_login_referer=https%3A%2F%2Fbugly.qq.com%2Fv2%2Fcrash-reporting%2Fcrashes%2Fec7be8aa7a%3Fpid%3D2; bugly_session=eyJpdiI6IkVOdDVvcTJROU9BK0xWWFJod3J5SlE9PSIsInZhbHVlIjoieVlxRmpBZUI5T3BCXC9NSkFzS3VBeTVyQVpJUFA1Q2xzc0lGVE4rMUgzQURJUk1qa1wvVWJKeE13R2ZPT1U2K29MbWpnRmk1M2ZiOWJyR0dEb3gzcjdzdz09IiwibWFjIjoiNzc4ZGUxNTJhMzYzODU1NDhhYjhmODhmZGMxMTQ5NWI3OGNkNmUyZGNiN2FjMDQyZDMyNDc3MTBkMjg2MDY3MyJ9; referrer=eyJpdiI6IjRZZENQQUpzdStaYUIrc0hlSmNsd2c9PSIsInZhbHVlIjoiUFNHMjFvTWphdnd1VXV4czVlSGg2c3hrenBUTkx2K3NsdVFwR0FEUmJzQkt4UXVyc3dQUmtsaU41VUlwR2h4eFwveVpzTnlUSzM3bmZRenpOTkVVSUdDSnFkeW43eUQ0Q2tqRnVtbXVYS0wyKzJ2Sk9hR0Z3NHdaTHU0dkVaUnlnVnpRbk4wbllSZ0ZGOUMydFB0a2xRemExeWJoSCthRSt3TW45OU1QQU9MdUdGYVwvSFNWd04yXC80WEp1N3I4dTk5IiwibWFjIjoiNDNlMTUwZGMwM2ZkZWNkNThmNzM2OWNiMDQ3NDJhZjE1ZjM3OTliYjViM2ZiM2I4NDkxM2UxNzM0NjA0MmQ2ZiJ9',
         'x-csrf-token': 'ZY2nGywbB4E_EuiCLRTkvUGP', 'X-token': '250356735'})
