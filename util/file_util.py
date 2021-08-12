@@ -12,7 +12,7 @@ import xlsxwriter
 
 def save_excel(file_name: str, sheet_data: List[Tuple[str, List[str], List[Tuple]]]):
     workbook = xlsxwriter.Workbook(
-        filename='/Users/zozozozo.cn/PycharmProjects/bugly/bugly_statistics/bugly01/report/%s.xlsx' % file_name)
+        filename='./report/%s.xlsx' % file_name)
     for sheet_name, headers, data_list in sheet_data:
         st = workbook.add_worksheet(sheet_name)
         for i in range(0, len(headers)):
