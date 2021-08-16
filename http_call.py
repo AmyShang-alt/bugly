@@ -11,8 +11,9 @@ from typing import Dict, List, Any
 import requests
 
 from const import HttpConst
+from ReadConfig import Readconfig
 
-HOST = 'https://bugly.qq.com/v4/api/old'
+HOST = Readconfig().get_config_str('data', 'HOST')
 
 
 class HttpCall(object):
